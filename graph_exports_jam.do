@@ -14,3 +14,5 @@ twoway (line ln_kg year, sort) if commoditycode==0901 & tradeflowcode==2, xlabel
 
 twoway (line ln_kg year, sort) if commoditycode==0901 & tradeflowcode==2 & year>=2000
 graph export JAM_cof_2000+.pdf
+
+/* What is next? Check if Jamaica is a good country for study*/
